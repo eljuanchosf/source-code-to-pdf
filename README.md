@@ -3,7 +3,7 @@
 ## Origins
 
 This useful utility was born out of the necessity of putting the source code of a friend's app into a PDF.
-I couldn't find anything ready to use, so I crafted this horrible, big BASH script. :)
+I couldn't find anything ready to use, but [@terdon](http://superuser.com/users/151431/terdon) created a [fantastic script](http://superuser.com/a/601412/610059) that uses **LaTeX**, I took it and crafted this horrible, but useful, big BASH script. :)
 
 ## How to use
 
