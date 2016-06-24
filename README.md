@@ -22,7 +22,7 @@ The output file will be `my_source_code.pdf`, but also the *LaTeX* file will be 
 
 ### File types
 
-There is one **very importan** code block. It is used to specify which files we want to include and what languages are they written:
+There is one **very important** code block. It is used to specify which files we want to include and what languages are they written:
 
 ```sh
 # The language    # File pattern # Exclude files
