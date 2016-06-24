@@ -19,3 +19,22 @@ vim src2pdf
 ```
 
 The output file will be `my_source_code.pdf`, but also the *LaTeX* file will be left in case you want to use it.
+
+### File types
+
+There is one **very importan** code block. It is used to specify which files we want to include and what languages are they written:
+
+```sh
+# The language    # File pattern # Exclude files
+file_types[0]="php|-name '*.php'|! -name '*.blade.php'"
+file_types[1]="html|-name '*.blade.php'|"
+```
+
+In the example, I go for `php` and `.blade.php` files.
+Since Python's *Pygments* doesn't have a *blade* format, I set it as HTML. In this way, Pygments will know what language to use when doing the syntax highlightning.
+You can add as many groups as you want. Copy, paste and replace.
+The first section is the language name according to Pygments specification.
+The second section is a pattern on what files do you want to include.
+The third section is a pattern on what files do you want to *exclude*.
+
+There is nothing more to it... enjoy! (let me know if you use it!)
