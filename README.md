@@ -11,7 +11,7 @@ I couldn't find anything ready to use, so I crafted this horrible, big BASH scri
 
 ```
 cd to-your-awesome-project-root
-wget
+wget https://raw.githubusercontent.com/eljuanchosf/source-code-to-pdf/master/src2pdf
 chmod +x src2pdf
 vim src2pdf
 # Edit the variables in the top of the file
