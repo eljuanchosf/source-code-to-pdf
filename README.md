@@ -41,3 +41,7 @@ Each group's section is sepparated by a pipe (|):
 * The third section is a pattern on what files do you want to *exclude*.
 
 There is nothing more to it... enjoy! (let me know if you use it!)
+
+## Want to contribute?
+
+Fork, modify, commit, push, pull request. :)
