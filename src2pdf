@@ -28,6 +28,11 @@ declare -A file_types
 # The language    # File pattern # Exclude files
 file_types[0]="php|-name '*.php'|! -name '*.blade.php'"
 file_types[1]="html|-name '*.blade.php'|"
+file_types[2]="c"
+file_types[3]="cpp"
+file_types[4]="basemake"
+file_types[5]="make"
+file_types[6]="cmake"
 # DONE EDITING! :)
 
 input_minted_header () {
